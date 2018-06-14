@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Share Multi-Photo Post</string>
+    <string name="message">Message</string>
+    <string name="wrningmsg">Please select social acoount above to Post </string>
+</resources>

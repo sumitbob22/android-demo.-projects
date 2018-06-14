@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/social"
+    >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/tendp"
+        android:layout_marginRight="@dimen/tendp"
+        >
+
+
+            <ImageView
+                android:id="@+id/fbicon"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fiftydp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_facebook" />
+
+            <TextView
+                android:id="@+id/fbicontext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/tendp"
+                android:text="Event : bird festival"
+                android:textSize="18dp"
+                android:layout_weight="1"/>
+
+            <CheckBox
+                android:id="@+id/fbcheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+           android:layout_gravity="center"
+
+
+                />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/tendp"
+        android:layout_marginRight="@dimen/tendp"
+        android:layout_marginTop="@dimen/tendp"
+        >
+
+        <ImageView
+            android:id="@+id/tweetericon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_twitter" />
+
+        <TextView
+            android:id="@+id/tweetertext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/tendp"
+            android:layout_weight="1"
+            android:text="Profile : Khmandar25"
+            android:textSize="18dp" />
+
+        <CheckBox
+            android:id="@+id/tweetcheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+          />
+
+
+    </LinearLayout>
+</LinearLayout>

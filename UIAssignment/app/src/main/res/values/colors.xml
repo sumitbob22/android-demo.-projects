@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#080506</color>
+    <color name="pagerback">#a4a1a1</color>
+    <color name="msgtv">#FF080506</color>
+    <color name="buttonback">#F4CFE3</color>
+    <color name="actionbar">#E1E5EE</color>
+    <color name="btncolor">#FFCE699F</color>
+</resources>
