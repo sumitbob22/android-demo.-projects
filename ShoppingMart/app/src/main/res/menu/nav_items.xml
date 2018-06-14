@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_list_black_24dp"
+        android:title="@string/nav_products"
+        android:id="@+id/productlist"
+        />
+    <item
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:title="@string/nav_cart"
+        android:id="@+id/cartproduct"
+        />
+</menu>

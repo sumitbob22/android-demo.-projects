@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="5dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+        android:id="@+id/outerLinear">
+
+    <ImageView
+        android:id="@+id/cartproductimg"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_weight="3"
+        >
+
+        <TextView
+            android:id="@+id/cartproductname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/cartproductvendorname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Vendor name"/>
+
+        <TextView
+            android:id="@+id/cartproductvendoraddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vedor address"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_gravity="right"
+            android:text="price" />
+        <TextView
+            android:id="@+id/cartproductprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="price Values"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count"
+            android:layout_gravity="right"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CountValue"
+            android:id="@+id/cartproductcount"
+            android:layout_gravity="right"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/outerLinear"
+        android:layout_margin="5dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/callvendorB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="call Vendor"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/removefromcartB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/mybutton"
+            android:text="Remove From cart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
+

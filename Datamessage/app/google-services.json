@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "30643709346",
+    "firebase_url": "https://datamessage-175d3.firebaseio.com",
+    "project_id": "datamessage-175d3",
+    "storage_bucket": "datamessage-175d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30643709346:android:06f45bbc72523ab5",
+        "android_client_info": {
+          "package_name": "com.example.sumitbobade.datamessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30643709346-8iesq02oecjjchah2pms63at7csrqboc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sumitbobade.datamessage",
+            "certificate_hash": "47e90ffae0e5865bfa0cb50849f8897ed1b2cd3d"
+          }
+        },
+        {
+          "client_id": "30643709346-dpud5l4a0qn64sj9ur0mm9rr70orc6q5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1TgjsZTNao-sLBn8BLrhbN09vU6IuM_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30643709346-dpud5l4a0qn64sj9ur0mm9rr70orc6q5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

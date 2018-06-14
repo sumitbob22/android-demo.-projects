@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShoppingMart</string>
+    <string name="nav_products">Products</string>
+    <string name="nav_cart">Cart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
